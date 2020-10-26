@@ -172,7 +172,7 @@ def count_activity(option = 'normal'):
 
 
 def string_format(option = '공격전',num = 0):
-    string = "오늘 {} 몇 판 가야 하나요? {}판".format(option,str(num))
+    string = "오늘 {} {}판 가시면 되겠네요.".format(option,str(num))
     return string
 
 #must be iterator
